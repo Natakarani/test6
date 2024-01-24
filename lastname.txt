@@ -1,0 +1,109 @@
+
+91809@LAPTOP-NQIET4M9 MINGW64 ~
+$ cd d:
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d
+$ cd BATCHES/
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES
+$ cd 3PM/
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM
+$ cd GIT/
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT (master)
+$ cd GitProject/
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   name.doc
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    name.doc
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        name.txt
+        ~$name.doc
+
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ ^C
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git add name.txt
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next time Git touches it
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   name.doc
+        new file:   name.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    name.doc
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$name.doc
+
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git commit -m "text file created"
+[master (root-commit) 656f3d3] text file created
+ 2 files changed, 2 insertions(+)
+ create mode 100644 name.doc
+ create mode 100644 name.txt
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    name.doc
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$name.doc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$ git log
+commit 656f3d3087cbdad6e00bfc044758fb941c3b99f7 (HEAD -> master)
+Author: Natakarani <natakaranimaneesha@gmail.com>
+Date:   Wed Jan 24 14:31:53 2024 +0530
+
+    text file created
+
+91809@LAPTOP-NQIET4M9 MINGW64 /d/BATCHES/3PM/GIT/GitProject (master)
+$
+
+
+
+
+full name
+
